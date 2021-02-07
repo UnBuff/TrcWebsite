@@ -24,10 +24,9 @@ jobs:
         with:
           ruby-version: 2.6
       - name: Install dependencies
-        run: |
-        gem install bundler
-        bundle init
-        bundle install
+        run: gem install bundler
+        run: bundle init
+        run: bundle install
       - name: Jekyll build
         run: jekyll build
 
