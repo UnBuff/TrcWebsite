@@ -15,7 +15,24 @@ layout: team
     <fieldset>
         <legend>{{ page.foundation }}</legend>
         <div class="center">
-            <p>The foundation team has stepped down</p>
+            <p>With effect from January 2021, The Terracoin Foundation has chosen to resign.</p>
+            <br>
+            <br>
+            <p>Terracoin community members have jointly taken over the operation of the TRC infrastructure until a new core team can be established.</p>
+            <br>
+            <br>
+            <p>Come and join our vision of making the world a better place using blockchain technology.</p>
+
+            <div class="center">
+                <span class="helpbtn">
+                    <span>
+                        <a target="_blank" href="https://discord.gg/KD7hGxsZ">
+                            <button>{{ page.join }}</button>
+                        </a>
+                    </span>
+                </span>
+            </div>
+                
             <!--
 {% for member in site.data.trcf %}
     {% assign member_image = '/media/members/nopic.jpg' %}
@@ -145,11 +162,16 @@ layout: team
         <p class="small">{{ page.join_blurb }}</p>
         <br>
         <div class="center">
-            <a target="_blank" href="https://discord.gg/KD7hGxsZ">
-                <button>DISCORD</button>
-            </a>
-		</div>
+            <span class="helpbtn">
+                <span>
+                    <a target="_blank" href="https://discord.gg/KD7hGxsZ">
+                        <button>{{ page.join }}</button>
+                    </a>
+                </span>
+            </span>
+        </div>
     </div>
 </div>
+
 {% include default-bottom.html %}
 
