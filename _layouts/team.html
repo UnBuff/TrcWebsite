@@ -15,6 +15,8 @@ layout: team
     <fieldset>
         <legend>{{ page.foundation }}</legend>
         <div class="center">
+            <p>The foundation team has stepped down</p>
+            <!--
 {% for member in site.data.trcf %}
     {% assign member_image = '/media/members/nopic.jpg' %}
     {% assign static_images = site.static_files | where: 'extname', '.jpg' %}
@@ -55,9 +57,11 @@ layout: team
                 </div>
             </div>
 {% endfor %}
+-->
         </div>
     </fieldset>
 </div>
+<!--
 <div class="page-section team-section2">
     <div class="center a2">
         <h4>{{ page.team_cont }}</h4>
@@ -107,6 +111,8 @@ layout: team
         </div>
 </div>
 
+-->
+
 <div id="translator" class="menu-anchor"></div>
 <div class="page-section team-section3">
     <h3>{{ page.translators }}</h3>
@@ -131,7 +137,6 @@ layout: team
 </div>
 
 <div id="join" class="menu-anchor"></div>
-<!-- Join by discord instead
 <div class="page-section team-section4 center">
     <h3>{{ page.join }}</h3>
     <br>
@@ -140,16 +145,11 @@ layout: team
         <p class="small">{{ page.join_blurb }}</p>
         <br>
         <div class="center">
-		{% assign form_url = '/scripts/apply' | append: page.lang | append: '.php' | prepend: site.url %}
-		<form method="post" action="{{ form_url }}">
-                <input type="text" spellcheck="false" name="name" tabindex="1" placeholder="{{ page.join_form_name }}">
-                <input type="email" spellcheck="false" name="email" tabindex="2" placeholder="{{ page.join_form_email }}">
-                <textarea name="message" tabindex="3" placeholder="{{ page.join_form_message }}"></textarea>
-	        <input type="submit" value="Submit" tabindex="4">
-            </form>
-        </div>
+            <a target="_blank" href="https://discord.gg/KD7hGxsZ">
+                <button>DISCORD</button>
+            </a>
+		</div>
     </div>
 </div>
-
 {% include default-bottom.html %}
--->
+
