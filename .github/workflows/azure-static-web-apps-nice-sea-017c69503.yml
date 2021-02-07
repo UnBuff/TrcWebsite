@@ -30,6 +30,9 @@ jobs:
       - name: create default gem fil
         run: bundle init
 
+      - name: add jekyll to gem
+        run: bundle add jekyll
+
       - name: Install bundle
         run: bundle install
 
