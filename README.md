@@ -1,6 +1,6 @@
 # Terracoin Website Instructions
 
-Copyright (c) 2016-2018, The Terracoin Foundation
+Copyright (c) 2016-2021, The Terracoin Foundation
 
 # Translators
 
