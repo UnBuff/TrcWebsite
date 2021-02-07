@@ -775,7 +775,7 @@
     background-size: cover;
 }
 
-.team-section3 .helpbtn {
+.helpbtn {
     background-image: -webkit-linear-gradient(170deg, #baff00, #006717);
     background-image: -moz-linear-gradient(170deg, #baff00, #006717);
     background-image: -ms-linear-gradient(170deg, #baff00, #006717);
@@ -818,8 +818,8 @@
     -moz-border-radius: 6px;
     -o-border-radius: 6px;
     border-radius: 6px;
-    line-height: 100px;
-    width: 380px;
+    line-height: 80px;
+    width: 150px;
     font-size: 50px;
     color: #3E3E3E;
     border: none;
