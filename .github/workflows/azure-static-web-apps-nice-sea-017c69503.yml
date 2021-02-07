@@ -20,14 +20,11 @@ jobs:
           submodules: true
 
       - name: Set up Ruby 2.6
-        uses: ruby/setup-ruby@v1.59.1
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
+          ruby-version: 2.6
       - name: Install dependencies
-        run: |
-          gem install bundler
-          gem update bundler
-          bundle install --without development --jobs 4 --retry 3
+        run: bundle install
       - name: Jekyll build
         run: jekyll build
 
