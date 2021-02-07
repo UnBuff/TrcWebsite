@@ -818,11 +818,10 @@
     -moz-border-radius: 6px;
     -o-border-radius: 6px;
     border-radius: 6px;
-    line-height: 80px;
-    width: 150px;
-    font-size: 50px;
+    font-size: 25px;
     color: #3E3E3E;
     border: none;
+    padding: 10px;
 }
 
  .helpbtn>span button:hover {
